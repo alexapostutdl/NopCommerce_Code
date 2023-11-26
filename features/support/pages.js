@@ -1,3 +1,4 @@
+import { CheckoutPage } from "../page-objects/checkoutPage";
 import { LoginPage } from "../page-objects/loginPage";
 import { MainPage } from "../page-objects/mainPage";
 import { RegisterPage } from "../page-objects/registerPage";
@@ -10,7 +11,8 @@ class Pages{
         this.mainPage = new MainPage(),
         this.registerPage = new RegisterPage(),
         this.loginPage = new LoginPage(),
-        this.shoppingCartPage = new ShoppingCartPage()
+        this.shoppingCartPage = new ShoppingCartPage(),
+        this.checkoutPage = new CheckoutPage()
     }
 
 

@@ -24,7 +24,7 @@ class RandomUser{
         phoneNumber
     ){
         this.country = country,
-        this.city - city,
+        this.city = city,
         this.address = address,
         this.zipCode = zipCode,
         this.phoneNumber = phoneNumber
